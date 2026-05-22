@@ -61,13 +61,13 @@ PORT=5000
 NODE_ENV=development
 
 # Context Studio MCP
-CONTEXT_ID=ctx_80f2c51f45e3
-MCP_GATEWAY_URL=https://servicesessentials.ibm.com/mcp-gateway/service/gateway/servers/8ccdd203bdee4014b08e82eedb6046e2/mcp
-MCP_AUTH_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaHJhZGRoYS5wYXJpa2gxQGlibS5jb20iLCJqdGkiOiJlMDM3NDhhOC1lYmFhLTQyMjgtYTJlNS1lZDlhNTE2ODA5M2QiLCJ0b2tlbl91c2UiOiJhcGkiLCJpYXQiOjE3NzkzODk0NDIsImlzcyI6Im1jcGdhdGV3YXkiLCJhdWQiOiJtY3BnYXRld2F5LWFwaSIsInVzZXIiOnsiZW1haWwiOiJzaHJhZGRoYS5wYXJpa2gxQGlibS5jb20iLCJmdWxsX25hbWUiOiJBUEkgVG9rZW4gVXNlciIsImlzX2FkbWluIjp0cnVlLCJhdXRoX3Byb3ZpZGVyIjoiYXBpX3Rva2VuIn0sInRlYW1zIjpudWxsLCJzY29wZXMiOnsic2VydmVyX2lkIjoiOGNjZGQyMDNiZGVlNDAxNGIwOGU4MmVlZGI2MDQ2ZTIiLCJwZXJtaXNzaW9ucyI6W10sImlwX3Jlc3RyaWN0aW9ucyI6W10sInRpbWVfcmVzdHJpY3Rpb25zIjp7fX0sImV4cCI6MTc4NzE2NTQ0Mn0.IFHTrUUY6L96pWxiN4C5mPCNXgZfaFdrezl5iSk1IJA
-MCP_API_KEY=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbEFkZHJlc3MiOiJjaHJpc3RpYW4uanVhcmV6QGlibS5jb20iLCJ0ZWFtSWQiOiI2YTBjZjNiMTMxMzAwZWU0ZTVjNDJiNGMiLCJjb250ZXh0SWQiOiJjdHhfODBmMmM1MWY0NWUzIiwiaWF0IjoxNzc5Mzg5NDQxLCJleHAiOjE3ODcxNjU0NDEsImlzcyI6ImNvbnRleHQtYnJva2VyIiwidG9rZW5faWQiOiI2MzE4YTVmNi04ZTA4LTQyNDItYjA2OS04ZGEyMDFhY2Q3MjQifQ.CNJv9NBW0olKAquFR-b_HUzNJV0o1zGgKTD5Bt9FqqKn9zu_hyg3l3J9IS1dDOFaupZYk7MoABhezPllfRkaPQ
+CONTEXT_ID=
+MCP_GATEWAY_URL=
+MCP_AUTH_TOKEN=
+MCP_API_KEY=
 
 # CORS
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=http://localhost
 ```
 
 Iniciar servidor:
@@ -76,7 +76,7 @@ Iniciar servidor:
 npm run dev
 ```
 
-El backend estará disponible en: `http://localhost:5000`
+El backend estará disponible en: `http://localhost
 
 #### 3. Configurar Frontend
 
@@ -88,7 +88,7 @@ npm install
 Crear archivo `.env`:
 
 ```env
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:pto/api
 REACT_APP_APP_NAME=Dental Clinical Intelligence
 ```
 
@@ -98,7 +98,7 @@ Iniciar aplicación:
 npm start
 ```
 
-El frontend estará disponible en: `http://localhost:3000`
+El frontend estará disponible en: `http://localhost:pto`
 
 ## 📡 API Endpoints
 
